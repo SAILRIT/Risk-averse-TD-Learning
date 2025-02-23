@@ -1,5 +1,5 @@
 # Overview
-This is the code release for the paper Safety Augmented TD Learning with Optimal Transport Theory.  
+This is the code release for the paper Risk-Averse Reinforcement Learning: An Optimal Transport Perspective on TD Learning.  
 
 
 ## Case Studies
