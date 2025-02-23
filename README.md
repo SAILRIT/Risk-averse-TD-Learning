@@ -4,6 +4,8 @@ This is the code release for the paper Safety Augmented TD Learning with Optimal
 
 ## Case Studies
 
+**Dependencies:** `numpy`, `pot`
+
 ### Grid-world with reward uncertainty
 We consider a 10×10 grid-world environment with normal, goal, and slippery states. The agent can move up, down, left, and right. For any movement to a normal state, the agent receives the reward of −1, while transitions to slippery states result in a random reward in the range [−12, 10]. Collisions with walls incur a reward of −10. The episode terminates when the agent either reaches the goal state in the top-right corner or completes a maximum of 100 steps.
 
@@ -23,6 +25,6 @@ In this case study, a rover must navigate a two-dimensional terrain map represen
 ![image](https://github.com/user-attachments/assets/7b12cc75-529d-4306-bf4d-4a843c24af60)
 
 
-**Dependencies:** `numpy`, `pot`
+
 
 
